@@ -1,7 +1,7 @@
 'use strict';
 
 function wuerfeln() {
-    var zufallszahl = Math.floor(6*Math.random()+1);
+    var zufallszahl = Math.floor(Math.ceil(6*Math.random()));
     return zufallszahl
 }
 
