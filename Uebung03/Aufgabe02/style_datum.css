@@ -1,0 +1,16 @@
+.designclock {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: darkred;
+    text-align: center;
+
+}
+
+.time {
+    left: 50%;
+    right: 50%
+}
+
+.date {
+    font-weight: bold;
+}
