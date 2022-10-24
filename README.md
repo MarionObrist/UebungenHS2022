@@ -1,1 +1,0 @@
-# UebungenHS2022
