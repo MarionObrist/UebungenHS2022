@@ -63,7 +63,8 @@ function App() {
         <TextField label="punkte" variant="outlined" defaultValue={pts} onChange={(event)=>{setPunkte(event.target.value)}}/>
       </Grid>
       <Grid item xs={12}>
-        <Button variant="contained" onClick={() => {do_download()}}>New Path</Button>
+        <Button variant="contained" onClick={() => {do_download()}}>Calculation</Button>
+        <Button variant='contained' onClick={() => {setData(null)}}>New Path</Button>
       </Grid>
       </Grid>
 
